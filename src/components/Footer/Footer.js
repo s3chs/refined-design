@@ -1,10 +1,12 @@
-import React from 'react'
-import "./footer.scss"
+import React from "react";
+import "./footer.scss";
 
 export default function Footer() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <section className="footer">
+      <h1 className="location" id="location-txt">
+        Rio de Janeiro
+      </h1>
+    </section>
+  );
 }
