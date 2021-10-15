@@ -10,7 +10,7 @@ export default function useLocoScroll(start) {
     const locoScroll = new LocomotiveScroll({
       el: scrollEl,
       smooth: true,
-      multiplier: 1,
+      multiplier: 1, 
       class: "is-reveal",
     });
   }, [start]);
